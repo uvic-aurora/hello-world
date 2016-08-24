@@ -1,3 +1,5 @@
+all: hello
+
 hello: hello.o
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
