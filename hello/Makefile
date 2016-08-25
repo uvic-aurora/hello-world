@@ -1,5 +1,6 @@
 SUBDIRS = \
   src \
+  doc
 
 .PHONY: default
 default: all
